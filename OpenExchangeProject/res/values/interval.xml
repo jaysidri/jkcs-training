@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="intervals">
+        <item >Every 5 minutes</item>
+        <item >Every 30 minutes</item>
+        <item >Once a day</item>
+    </string-array>
+    <string-array name="intervals_values">
+        <item >5</item>
+        <item >30</item>
+        <item >1440</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- if you want this to be masked, place this: android:password="true" -->
+    <EditTextPreference
+        android:defaultValue="http://openexchangerates.org/currencies.json"
+        android:key="pref_currency_list_url"
+        android:summary="Set the URL for the currency list API"
+        android:title="Currency List" />
+    <EditTextPreference
+        android:defaultValue="http://openexchangerates.org/latest.json"
+        android:key="pref_currency_rate_url"
+        android:summary="Set the URL for the currency rates API"
+        android:title="Currency Rates" />
+
+    <PreferenceCategory>
+        <ListPreference
+            android:defaultValue="1440"
+            android:dialogTitle="Select an interval"
+            android:entries="@array/intervals"
+            android:entryValues="@array/intervals_values"
+            android:key="pref_update_interval"
+            android:summary="Set the update interval"
+            android:title="Update Interval" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
