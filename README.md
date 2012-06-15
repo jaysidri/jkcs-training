@@ -1,4 +1,4 @@
 jkcs-training
 =============
 
-The applications that were developed during JKCS Android training sessions
+Sample apps developed during JKCS training sessions

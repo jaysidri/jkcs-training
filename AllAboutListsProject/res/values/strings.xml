@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AllAboutListsProject</string>
+    <string name="sorry_no_items_to_display">Sorry.. no items to display.</string>
+    <string name="all_about_listviews">All About ListViews, Adapters (and Spinner, Just For Kicks)</string>
+    <string name="listview_via_listactivity_example">Listview via ListActivity Example</string>
+    <string name="plain_old_listview_example">Plain Old Listview Example</string>
+    <string name="custom_listview_example">Custom Listview Example</string>
+    <string name="spinner_example">Spinner Example</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HelloWorldActivity!</string>
+    <string name="app_name">TestPoject</string>
+    <string name="back">Back</string>
+    <string name="test_onclick">Test onclick</string>
+
+</resources>

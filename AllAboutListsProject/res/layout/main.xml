@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/all_about_listviews"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center"/>
+
+    <Button
+        android:id="@+id/cmdPlainOldListview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/plain_old_listview_example" android:onClick="onButtonClick" />
+
+    <Button
+        android:id="@+id/cmdListViewViaListActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/listview_via_listactivity_example" android:onClick="onButtonClick" />
+
+    <Button
+        android:id="@+id/cmdCustomListview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_listview_example" android:onClick="onButtonClick" />
+
+    <Button
+        android:id="@+id/cmdSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spinner_example" android:onClick="onButtonClick" />
+
+</LinearLayout>
