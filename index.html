@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>JKCS Android Training by jahufar</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/jahufar/jkcs-training">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/jahufar/jkcs-training/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/jahufar/jkcs-training/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>JKCS Android Training</h1>
+          <p>The JKCS Android training sessions: Notes &amp; Code </p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/jahufar">jahufar</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h3>Welcome</h3>
+
+<p>This repository contains all the source that was developed during the training program conducted at JKCS (April 6th 2012 - June 13th 2012).</p>
+
+<h3>The Syllabus</h3>
+
+<p>The following topics were covered during the sessions:</p>
+
+<ul>
+<li><p>Downloading the SDKs, setting up the development environment and tools</p></li>
+<li>
+<p>Knowing your basics</p>
+
+<ul>
+<li>Overview of the Android systems architecture</li>
+<li>Application life-cycle</li>
+<li>The Android Version and API Levels</li>
+<li>Building blocks: Activities, Intents, Services, Broadcast Receivers, Content Providers</li>
+<li>Android  permission models</li>
+<li>Setting up your first Virtual Device.</li>
+</ul>
+</li>
+<li>
+<p>Hello Android!</p>
+
+<ul>
+<li>Writing your first application and launching it on a Virtual Device</li>
+<li>Setting up your phone/tablet for debugging</li>
+<li>The anatomy of an Android application</li>
+<li>UI components overview</li>
+<li>Overview of the Android Manifest file</li>
+<li>Logging and debugging</li>
+<li>Working with multiple device form factors and screen densities</li>
+<li>An introduction to the resource loading framework</li>
+<li>Introduction to 9-patch image resources</li>
+<li>Internationalization and string resources</li>
+<li>Life-cycle methods and handling configuration changes</li>
+<li>Introducing the Dalvik Debug Monitor Server (DDMS)</li>
+</ul>
+</li>
+<li>
+<p>A closer look at Activities and Intents</p>
+
+<ul>
+<li>Types of activities</li>
+<li>Passing parameters via Intents</li>
+<li>Interacting with other activities on the system.</li>
+</ul>
+</li>
+<li>
+<p>ListViews and Adapters</p>
+
+<ul>
+<li>ArrayAdapter and BaseAdapters</li>
+<li>Designing Custom Listviews</li>
+<li>Dealing with performance issues</li>
+</ul>
+</li>
+<li>
+<p>Working with BroadcastReceivers </p>
+
+<ul>
+<li>Introduction</li>
+<li>Registering to be notified: via manifest and via code</li>
+</ul>
+</li>
+<li>
+<p>Services </p>
+
+<ul>
+<li>Introduction to Service base class, life-cycle methods</li>
+<li>Background and Foreground services</li>
+<li>Avoiding the "forever service" anti-pattern: Introduction to AlarmService</li>
+</ul>
+</li>
+<li>
+<p>Threading</p>
+
+<ul>
+<li>An introduction to Android’s threading model</li>
+<li>Application Not Responding (ANR) or: Why you never ever block the UI thread</li>
+<li>Handlers and AsyncTask</li>
+<li>Threading and device configuration changes</li>
+</ul>
+</li>
+<li>
+<p>Network Services</p>
+
+<ul>
+<li>Introducing the Apache HttpClient libraries</li>
+<li>Parsing JSON </li>
+</ul>
+</li>
+<li>
+<p>Power Management</p>
+
+<ul>
+<li>Android's power management model</li>
+<li>Staying awake: Introduction to WakeLocks</li>
+<li>Types of wake locks, acquiring and releasing them.</li>
+</ul>
+</li>
+<li>
+<p>Working with databases</p>
+
+<ul>
+<li>Introduction to persistent storage: Working with SQLite.</li>
+<li>SqliteHelpers</li>
+<li>Working with Cursors</li>
+<li>Binding cursors to Listviews via CursorAdapter</li>
+</ul>
+</li>
+<li>
+<p>Shared Preferences</p>
+
+<ul>
+<li>Introduction to Android's shared preference framework</li>
+<li>Building preference UIs and working with PrefereceActivity</li>
+</ul>
+</li>
+<li>
+<p>Taking to Sensors</p>
+
+<ul>
+<li>Classes of supported sensors</li>
+<li>Introduction to the SensorManager service<br>
+</li>
+<li>Dealing with performance issues</li>
+<li>Talking to the Accelerometer, Gyroscope, Ambient Light and Proximity sensors</li>
+</ul>
+</li>
+<li>
+<p>Geolocation and GeoCoding</p>
+
+<ul>
+<li>Location sensors: GPS, Cell Triangulation and Wi-Fi Triangulation</li>
+<li>Introduction to LocationManager services</li>
+<li>Dealing with performance issues</li>
+<li>Figuring out where you are: Geolocation and GeoCoding</li>
+</ul>
+</li>
+<li>
+<p>Packaging and distributing your application</p>
+
+<ul>
+<li>Generating signing keys and signing your application</li>
+<li>Setting up 1-click build using Apache Ant</li>
+<li>Publishing to Google Play (The App Store Formerly Known As Google Market)</li>
+<li>Alternatives to Google Play</li>
+</ul>
+</li>
+</ul><h3>Getting to the Source</h3>
+
+<p>All code was written during the live-coding sessions are in <a href="https://github.com/jahufar/jkcs-training">this git repository hosted at GitHub</a>. You can either:</p>
+
+<p>Get the source code directly by downloading the .zip or .tar.gz file to your local PC.</p>
+
+<p>or </p>
+
+<p>Install git and clone the entire repo to your local disk:</p>
+
+<pre><code>mkdir /home/jahufar/jkcs-training
+git clone git@github.com:jahufar/jkcs-training.git .
+</code></pre>
+
+<p>If you're using Windows, please download and install <a href="http://msysgit.github.com/">msysGit</a>.</p>
+
+<h3>Projects and Source Code</h3>
+
+<ol>
+<li><p><strong>HelloWorldPoject:</strong> The project that introduced the basic concepts: getting ADT going with Eclipse, setting up a project, creating and AVD and starting the emulator, intro to the Manifest.xml creating your first activity, starting a new activity at runtime via intents and passing parameter between activities.</p></li>
+<li><p><strong>BarCodeExample:</strong> An example of how to use StartActivityForResult() to call an external application (ZXING) via a Intent to allow the user to scan and return back bar-code data.</p></li>
+<li><p><strong>ContactPickerProject:</strong> Demonstrates how to use a targeted intent to launch and allow the user to pick a contact from the address book</p></li>
+<li><p><strong>AllAboutListsProject:</strong> Code that demonstrates a plain-old listview, a listview that uses ListActivity and a custom Listview with performance optimizations.</p></li>
+<li><p><strong>ServicesProject:</strong> A very simple project that demonstrates the concepts behind Android services. Please refer to the OpenExchangeProject for more advanced service example.</p></li>
+<li><p><strong>AllAboutThreadsProject:</strong> Demonstrates the 2 supported threading mechanisms: Handlers and AsyncTask. Also demonstrates how to avoid activity leaks during when device configuration changes occur.</p></li>
+<li><p><strong>BatteryBroadcastReciever:</strong> Example on how to use a BroadcastReceiver to listen for system events - this example demonstrates to monitor battery life in real time.</p></li>
+<li><p><strong>LocationProject:</strong> Demonstrates how to work with location providers such as GPS and cell towers and get notified when the phone moves or when a user enters a proximity region you previously set.</p></li>
+<li><p><strong>InternalContentProvidersProject</strong>: Demonstrates how to query the content providers exposed by Android. Examples includes querying the: phone call log, browser history and bookmarks, address book and phone settings.</p></li>
+<li><p><strong>SensorTestProject:</strong> A test harness type application that would query your device for list of supported sensors and start reading data for each of them, dumping the raw output to screen.</p></li>
+<li><p><strong>ShakeitBabyProject:</strong> Not written in class. Demonstrates the use of the accelerometer sensor to detect when the user shakes the device. Will come in handy if you want to build in a "Shake-to-Refresh" feature on your app.</p></li>
+<li><p><strong>OpenExchangeProject:</strong> A (mostly) complete and (semi) useful app that was developed in stages. Uses almost all of the concepts learnt previously (Services, Alarms, WakeLocks, Network Access, Threading/ASyncTask, JSON parsing, Sqlite DB, BroadcastRecievers, SharedPreferences) plus a couple of extras (AutoComplete textfields and context menus). There will be a couple of more updates to this project over this weekend - will be adding a content provider to expose the data to other processes. </p></li>
+</ol><h3>Further Reading</h3>
+
+<ol>
+<li><p>You may subscribe to <a href="http://www.google.com/reader/bundle/user%2F07370575031877788838%2Fbundle%2FAndroid%20Feeds">my Android news feeds</a> directly from Google Reader. The feed contains about 18 Android news and dev blogs I read frequently. If you don't use Google Reader, you can download the <a href="http://www.google.com/reader/public/subscriptions/user%2F07370575031877788838%2Fbundle%2FAndroid%20Feeds">OPML file</a> and import the feeds to a reader of your choice. </p></li>
+<li><p><img src="http://ecx.images-amazon.com/images/I/51T3%2BWcIugL._SL75_SS50_.jpg" alt="Learning Android by Marko Gargenta"><a href="http://www.amazon.com/Learning-Android-Marko-Gargenta/dp/1449390501">Learning Android by Marko Gargenta</a></p></li>
+<li><p><img src="http://ecx.images-amazon.com/images/I/41i8myyWOQL._SL75_SS45_.jpg" alt="Professional Android 2 Application Development by Reto Meier"><a href="http://www.amazon.com/Professional-Android-Application-Development-Programmer/dp/0470565527">Professional Android 2 Application Development by Reto Meier</a></p></li>
+</ol><h3>Useful Links/Libraries/3rd Party Services</h3>
+
+<ol>
+<li><p><a href="https://play.google.com/store/apps/details?id=com.lexa.fakegps&amp;hl=en">Fake GPS</a>: Allows you to fake your location in real time. Useful debugging tool when you are writing location based apps.</p></li>
+<li><p><a href="http://code.google.com/p/roboguice/">RoboGuice</a>: A useful Dependency Injection helper library for Android.</p></li>
+<li><p><a href="http://code.google.com/p/acra/">Application Crash Report for Android (ACRA)</a>: Crash reporting made easy. Useful for QA and beta testing your app in the real world.</p></li>
+<li><p><a href="http://urbanairship.com/">Urban Airship</a>: A cross-platform push notification server solution.</p></li>
+<li><p><a href="http://www.flurry.com/">Flurry</a>: The best mobile cross platform analytics service out there (better than <a href="https://developers.google.com/analytics/devguides/collection/android/resources">Google Analytics for Android</a>, IMHO) </p></li>
+<li><p><a href="http://sqlitebrowser.sourceforge.net/">SQLite Browser</a>: A free tool to work with SQLite DBs (also see: <a href="https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/">SQLite Manager (Firefox extension)</a></p></li>
+<li><p><a href="code.google.com/p/maven-android-plugin/">android-maven-plugin</a>: An Android plugin for Maven build utility.</p></li>
+<li><p><a href="http://jackson.codehaus.org/">Jackson JSON</a>: The native JSON package shipped with Android is not very efficient when you need to parse complexly formatted or large chunks of JSON markup (uses CPU/battery and causes a lot of GC). For relatively simple markup such as the currency REST service we worked with, native JSON parser worked fine but if you want high performance, then Jackson is the JSON processor you should check out.</p></li>
+<li><p><a href="http://proguard.sourceforge.net/">Proguard</a>: Is a tool that shrinks, optimizes and obfuscates your code by removing unused code and renaming classes, fields, and methods with semantically obscure names. The result is a smaller sized .apk file that is more difficult to reverse engineer.</p></li>
+</ol><h3>Getting in Touch</h3>
+
+<p>I can be reached via the following ways, if needed:</p>
+
+<ul>
+<li>Phone: 0718 50 52 53</li>
+<li>E-mail/Gtalk: <a href="mailto:jahufar@gmail.com">jahufar@gmail.com</a>
+</li>
+<li>Skype: jahufar</li>
+<li>Twitter DM: <a href="https://github.com/jahufar" class="user-mention">@jahufar</a>
+</li>
+</ul><p>Thank you and I wish you the best on your Android journey.</p>
+
+<p>-j</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    
+  </body>
+</html>
