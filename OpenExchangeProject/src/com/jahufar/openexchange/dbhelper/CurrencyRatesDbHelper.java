@@ -18,8 +18,6 @@ public class CurrencyRatesDbHelper {
 
 	public Float getExchangeRate(String code) {
 
-		String sql = null;
-
 		Cursor cursor = db.query(TABLE, new String[] { VALUE }, CURRENCY_CODE
 				+ "= ?", new String[] { code }, null, null, null);
 
