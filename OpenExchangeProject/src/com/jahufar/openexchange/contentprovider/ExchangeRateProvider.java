@@ -117,11 +117,17 @@ public class ExchangeRateProvider extends ContentProvider {
 		if (uriType != CURRENCY_CODE)
 			throw new IllegalArgumentException("Unknown URI: " + uri);
 
+		String currencyCode = uri.getLastPathSegment();
+
 		sqLiteQueryBuilder.appendWhere(CurrencyRatesDbHelper.CURRENCY_CODE
-				+ " = '" + uri.getLastPathSegment() + "'");
+				+ " = '" + currencyCode + "'");
 
 		Cursor cursor = sqLiteQueryBuilder.query(db, projection, null, null,
 				null, null, null);
+
+		if (0 == cursor.getCount()) // unknown currency code? throw it
+			throw new java.lang.IllegalArgumentException(
+					"Unknown currency code:" + currencyCode);
 
 		return cursor;
 	}
